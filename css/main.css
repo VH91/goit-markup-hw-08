@@ -63,7 +63,7 @@ img {
           align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .contanier {
     width: 480px;
     margin: 0 auto;
