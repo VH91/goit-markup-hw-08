@@ -1,0 +1,11 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+  min-width: 480px;
+}
+
+.main-nav {
+  display: block;
+  @media screen and(min-width:768px) {
+    display: flex;
+  }
+}
