@@ -35,7 +35,14 @@
   @media screen and (min-width: 1200px) {
     text-align: start;
   }
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+
 }
+}
+
 .footer__list {
   @extend %list;
   margin-top: 9px;
