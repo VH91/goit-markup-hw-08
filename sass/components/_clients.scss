@@ -1,7 +1,7 @@
 .clients {
   padding-top: 60px;
   padding-bottom: 60px;
- 
+  min-width: 480px;
   @media screen and(min-width: 768px) {
     min-width: 768px;
   }
@@ -89,8 +89,8 @@
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus  {
+  .clients__link:hover &,
+  .clients__link:focus & {
     fill: $accent-color;
   }
 }
