@@ -53,7 +53,16 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+
+  @media screen and (max-width:767px) {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-align: center;
+    
+  }
+ 
 }
 
 .features__text {
@@ -62,6 +71,8 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  
 }
 
 .features__icon {

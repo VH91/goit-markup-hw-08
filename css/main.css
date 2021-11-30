@@ -48,8 +48,8 @@ img {
 .contanier {
   padding-left: 15px;
   padding-right: 15px;
-  width: 100%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-header .contanier {
@@ -517,18 +517,44 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  max-width: 360px;
+  max-width: 767px;
   color: #ffffff;
   -ms-flex-line-pack: center;
       align-content: center;
   font-weight: 900;
-  font-size: 26px;
-  line-height: 1.62;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: backgroun 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: backgroun 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 767px) {
+  .hero__title {
+    color: #ffffff;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .hero__title {
+    color: #ffffff;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    width: 360px;
+    height: 84px;
+    left: 204px;
+    top: 198px;
+  }
 }
 
 .hero__button {
@@ -624,7 +650,16 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .features__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
 }
 
 .features__text {
@@ -731,12 +766,23 @@ img {
 }
 
 .team__title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 1199px) {
+  .team__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
 }
 
 .team__name {
@@ -885,12 +931,23 @@ img {
 }
 
 .clients__title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
 }
 
 .clients__list {
